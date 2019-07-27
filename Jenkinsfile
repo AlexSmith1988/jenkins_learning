@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'hostname'
-                sh 'whoami'
+                sh 'echo Hello World'
             }
         }
     }
